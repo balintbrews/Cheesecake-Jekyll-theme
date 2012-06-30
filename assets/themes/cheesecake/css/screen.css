@@ -42,7 +42,6 @@ p {
 a {
   color: #5454AA;
   text-decoration: none;
-  -moz-transition: all 0.2s ease 0s;
 }
 
 a:hover, a:active, a:focus {
