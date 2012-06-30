@@ -129,9 +129,10 @@ a:hover, a:active, a:focus {
   /* standard */
 
   #post pre {
-    border: 1px solid #ddd;
-    background-color: #272822;
+    border: 1px solid #EEE8D4;
+    background-color: #FDF6E3;
     padding: 0 .4em;
+    line-height: 1.2;
   }
 
   #post ul,
@@ -140,8 +141,8 @@ a:hover, a:active, a:focus {
   }
 
   #post code {
-    border: 1px solid #ddd;
-    background-color: #272822;
+    border: 1px solid #EEE8D4;
+    background-color: #FDF6E3;
     font-size: 12px;
     font-family: "Bitstream Vera Sans Mono",Monaco,"Lucida Console",monospace;
     padding: 0 .2em;
