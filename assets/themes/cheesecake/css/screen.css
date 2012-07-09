@@ -45,7 +45,7 @@ a:hover, a:active, a:focus {
 }
 
 
-.site {
+body {
   width: 605px;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
@@ -57,83 +57,83 @@ a:hover, a:active, a:focus {
   margin-bottom: 2em;
 }
 
-  .site #header a {
+  #header a {
     font-size: 18px;
     color: #93A605;
     text-decoration: none;
   }
 
-  .site #header a:hover {
+  #header a:hover {
     color: #899D00;
   }
 
-  .site #header a.extra {
+  #header a.extra {
     font-size: 16px;
     color: #858585;
     text-decoration: none;
     margin-left: 14px;
   }
 
-  .site #header a.extra:hover {
+  #header a.extra:hover {
     color: #5C5C5C;
   }
 
-  .site .social-icons {
+  .social-icons {
     display: inline;
     list-style: none;
   }
 
-  .site .social-icons li {
+  .social-icons li {
     display: inline;
     float: right;
   }
 
-  .site .social-icons li a {
+  .social-icons li a {
     display: block;
     width: 24px;
     height: 24px;
     background-image: url('../img/social-icons.png');
   }
 
-  .site .social-icons li a.rss {
+  .social-icons li a.rss {
     background-position: 0px 0px;
   }
 
-  .site .social-icons li a.rss:hover {
+  .social-icons li a.rss:hover {
     background-position: 0px 24px;
   }
 
-  .site .social-icons li a.twitter {
+  .social-icons li a.twitter {
     background-position: -24px 0px;
   }
 
-  .site .social-icons li a.twitter:hover {
+  .social-icons li a.twitter:hover {
     background-position: -24px 24px;
   }
 
-  .site .social-icons li a.drupal {
+  .social-icons li a.drupal {
     background-position: -48px 0px;
   }
 
-  .site .social-icons li a.drupal:hover {
+  .social-icons li a.drupal:hover {
     background-position: -48px 24px;
   }
 
-  .site .social-icons li a.github {
+  .social-icons li a.github {
     background-position: -72px 0px;
   }
 
-  .site .social-icons li a.github:hover {
+  .social-icons li a.github:hover {
     background-position: -72px 24px;
   }
 
-  .site .meta {
+  .meta {
     color: #aaa;
     font-size: 12px;
     margin-top: -16px;
   }
 
-  .site #footer {
+  #footer {
     font-size: 80%;
     color: #666;
     border-top: 4px solid #eee;
@@ -141,50 +141,50 @@ a:hover, a:active, a:focus {
     overflow: hidden;
   }
 
-    .site #footer .contact {
+    #footer .contact {
       float: left;
       margin-right: 3em;
     }
 
-      .site #footer .contact a {
+      #footer .contact a {
         color: #8085C1;
       }
 
-    .site #footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
+      #footer .rss {
+        margin-top: 1.1em;
+        margin-right: -.2em;
+        float: right;
     }
 
-      .site #footer .rss img {
+      #footer .rss img {
         border: 0;
       }
 
 /*****************************************************************************/
 /*
-/*.contents
+/*#contents
 /*
 /*****************************************************************************/
 
-.content {
+#content {
 
 }
 
   /* standard */
 
-  .content pre {
+  #content pre {
     border: 1px solid #EEE8D4;
     background-color: #FDF6E3;
     padding: 0 .4em;
     line-height: 1.2;
   }
 
-  .content ul,
-  .content ol {
+  #content ul,
+  #content ol {
     margin-left: 1.35em;
   }
 
-  .content code {
+  #content code {
     border: 1px solid #EEE8D4;
     background-color: #FDF6E3;
     font-size: 12px;
@@ -192,19 +192,19 @@ a:hover, a:active, a:focus {
     padding: 0 .2em;
   }
 
-    .content pre code {
+    #content pre code {
       border: none;
     }
 
   /* terminal */
 
-  .content pre.terminal {
+  #content pre.terminal {
     border: 1px solid black;
     background-color: #333;
     color: white;
   }
 
-  .content pre.terminal code {
+  #content pre.terminal code {
     background-color: #333;
   }
 
